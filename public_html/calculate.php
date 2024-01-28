@@ -144,7 +144,7 @@ for ($year = 1; $year < 11; $year++) {
 
 <h1>Итог</h1>
 <div>
-    <strong>Прибыль</strong> = Выручка <strong><?=$totalRevenue?></strong> - 30% (затраты на материаллы) - 20% прочие расходы - зарплаты сотрудникам <?=$operatorsCost?> = <strong><?=$totalRevenue / 2 - $operatorsCost * 2?></strong>
+    <strong>Прибыль</strong> = Выручка <strong><?=$totalRevenue?></strong> - 30% (затраты на материаллы) - 20% прочие расходы - зарплаты сотрудникам <?=$operatorsCost * 2?> = <strong><?=$totalRevenue / 2 - $operatorsCost * 2?></strong>
 </div>
 
 <div>
