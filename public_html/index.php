@@ -230,12 +230,12 @@
         <h3>Количество часов работы каждого станка</h3>
         <div>
             <label>Количество часов работы DED в день</label>
-            <input name="ded_machine_work_hours" type="number" value="0">
+            <input name="ded_machine_work_hours" type="number" value="12">
         </div>
         <br>
         <div>
             <label>Количество часов работы SLM в день</label>
-            <input name="slm_machine_work_hours" type="number" value="0">
+            <input name="slm_machine_work_hours" type="number" value="12">
         </div>
 
         <h3>Прочие настройки</h3>
