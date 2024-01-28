@@ -23,7 +23,7 @@
 
         <h3>Выбор типа расчета</h3>
         <button id="calculation_type_1_btn" onclick="calculation_type_1_active(); return false;">Расчет по стоимости работы часа</button>
-        <button id="calculation_type_2_btn" onclick="calculation_type_2_active(); return false;">Расчет по стоимости производства кубического сантиметра</button>
+<!--        <button id="calculation_type_2_btn" onclick="calculation_type_2_active(); return false;">Расчет по стоимости производства кубического сантиметра</button>-->
 
         <input id="calculation_type_1_input" name="calculation_type_1_input" value="1" hidden>
         <input id="calculation_type_2_input" name="calculation_type_2_input" value="0" hidden>

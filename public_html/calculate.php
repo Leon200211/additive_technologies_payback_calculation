@@ -138,8 +138,17 @@ for ($year = 1; $year < 11; $year++) {
 </div>
 
 <div>
-    <div>Станок DED работал <?=$_POST['ded_machine_work_hours'] * 300?> часов</div>
-    <div>Станок SLM работал <?=$_POST['slm_machine_work_hours'] * 300?> часов</div>
+    <div>Станок DED работал <?=$_POST['ded_machine_work_hours'] * 300 * 10?> часов</div>
+    <div>Станок SLM работал <?=$_POST['slm_machine_work_hours'] * 300 * 10?> часов</div>
+</div>
+
+<h1>Итог</h1>
+<div>
+    <strong>Прибыль</strong> = Выручка <strong><?=$totalRevenue?></strong> - 30% (затраты на материаллы) - 20% прочие расходы - зарплаты сотрудникам <?=$operatorsCost?> = <strong><?=$totalRevenue / 2 - $operatorsCost * 2?></strong>
+</div>
+
+<div>
+    Итого: Прибыль <?=$totalRevenue / 2 - $operatorsCost * 2?> - Затраты <?=$_POST['ded_machine_price'] + $_POST['slm_machine_price']?> = <?=($totalRevenue / 2 - $operatorsCost * 2) - ($_POST['ded_machine_price'] + $_POST['slm_machine_price'])?>
 </div>
 
 </body>
